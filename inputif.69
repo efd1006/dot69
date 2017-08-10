@@ -1,0 +1,5 @@
+ipasok "Enter your name: " $name
+PAG $name == "pototoy" ituloy 
+	ilabas "hello"
+	ilabas $name
+punasan

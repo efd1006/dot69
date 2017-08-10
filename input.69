@@ -1,0 +1,4 @@
+ipasok "Enter your name: " $name
+ilabas $name
+ipasok "Enter a number: " $num
+ilabas $num

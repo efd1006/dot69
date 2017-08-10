@@ -1,0 +1,4 @@
+ipasok "Number: " $a
+pag $a == 1 ituloy
+	ilabas $a
+punasan

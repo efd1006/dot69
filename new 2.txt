@@ -1,0 +1,46 @@
+ilabas "This is a string"
+
+ilabas 4+4
+
+$var1 = "edmar"
+ilabas $var1
+
+//error 
+$var1 = "edmar"
+ilabas $var
+
+$var1 = 1
+ilabas $var1
+
+ipasok "Enter your name: " $name
+ilabas $name
+
+ipasok "Enter a number: " $num
+ilabas $num
+
+ipasok "Enter your name: " $name
+PAG $name == "pototoy" ituloy 
+	ilabas "hello"
+	ilabas $name
+punasan
+
+$a = 1
+pag $a == 1 ituloy
+	ilabas $a
+punasan
+
+// comparing a variable
+ipasok "Enter number: " $num
+pag $num == 1 ituloy
+	ilabas "hello"
+punasan
+
+// comparing a literal integer
+pag 1 == 1 ituloy
+	ilabas "match"
+punasan
+
+ipasok "Enter number: " $num
+pag $num == 18 ituloy
+	ilabas "You are adult"
+punasan

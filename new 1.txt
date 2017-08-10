@@ -1,0 +1,17 @@
+to print
+	ilabas <string>
+	ilabas term + term -> prints arithmetic result
+arithmetic 
+	term + term
+	
+$<variable_name> = <variable>
+	$name = "edmar"
+	$num = 4
+	$expr = 4+5
+
+ipasok <"string"> <$variable>
+	ipasok "Enter number: " $num
+
+KUNG 1 == 1 GAWIN
+	ILABAS ("hello")
+KATAPUSAN
